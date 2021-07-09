@@ -1,0 +1,20 @@
+@media only screen and (min-width: 1024px) {
+
+
+    nav ul {
+        margin-left: 25px;
+    }
+
+    nav li {
+        width: auto;
+    }
+
+    nav a {
+        padding: 0.7rem 1rem;
+    }
+
+
+
+}
+
+/* end of media query */
