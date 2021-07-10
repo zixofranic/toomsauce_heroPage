@@ -5,6 +5,7 @@
         height: 100px;
         padding-left: 20px;
     }
+
     /*Nav display change*/
     #hambrgrBtn {
         display: none;
@@ -19,6 +20,107 @@
         float: left;
     }
 
+    /*Vertical Timeline*/
+    #hero-timeline {
+        position: relative;
+        max-width: 1024px;
+        width: 100%;
+        margin: 0 auto;
+        
+    }
+
+    .all-content-wrapper {
+        padding-top: 20px;
+        padding-bottom: 50px;
+    }
+
+    .timeline-center-line {
+        position: absolute;
+        width: 3px;
+        height: 100%;
+        top: 50px;
+        left: 50%;
+        background: #007cba;
+        z-index: 0;
+        margin-left: -2px;
+    }
+
+    .product-title {
+        display: table;
+        font-family: "Roboto", sans-serif;
+        font-size: 1.3rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        background-color: #007cba;
+        padding: 10px 25px;
+        color: white;
+        border-radius: 12px;
+        text-align: center;
+        margin: 5px auto;
+        max-width: 25%;
+    }
+
+    .timeline-product {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        margin: 20px 0px;
+    }
+    .content-left-container{
+        float:left;
+    }
+    .content-right-container {
+        float:right
+    }
+    .content-left-container,
+    .content-right-container {
+        max-width: 45%;
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    .content-left,
+    .content-right {
+        position: relative;
+        width: auto;
+        border: 1px solid #eee;
+        background-color: #fff;
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, .03);
+        padding: 25px 25px;
+    }
+    .content-left ::before, .content-right ::before {
+        position: absolute;
+        top: 20px;
+        color: white;
+        font-family: "FontAwesome";
+        font-size: 25px;
+    }
+    .content-right ::before{
+        content:"\f0d9" ;
+        left:-10px;
+
+    }
+    .content-left ::before{
+        content: "\f0da";
+        right: -8px;
+    }
+
+    .timeline-product p {
+        font-weight: 400;
+        color: #242424;
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .timeline-product h2 {
+        font-weight: 600;
+        color: #007cba;
+        font-size: 18px;
+    }
 
 
-} /* end of media query */
+
+
+}
+
+/* end of media query */

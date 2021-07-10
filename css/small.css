@@ -11,9 +11,11 @@ html {
 
 
 body {
-    font-family: 'Lato', sans-serif;
+    
+    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-weight: 300;
+    background: #e6e6e6;
 }
 
 /* header rules */
@@ -22,7 +24,7 @@ header img {
     display: flex;
     margin-left: auto;
     margin-right: auto;
-    height: 70px;
+    height: 85px;
     padding-top: 5px;
     padding-bottom: 5px;
     
