@@ -76,6 +76,115 @@ nav ul {
     height: 2rem;
     cursor: pointer;
 }
+ /*Vertical Timeline*/
+ #hero-timeline {
+    position: relative;
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.all-content-wrapper {
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.timeline-center-line {
+    margin-left: 0;
+    position: absolute;
+    width: 3px;
+    height: 100%;
+    top: 50px;
+    left: 85px;
+    background: #007cba;
+    z-index: -1;
+}
+
+.product-title {
+    display: table;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.3rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: #007cba;
+    padding: 10px 25px;
+    color: white;
+    border-radius: 12px;
+    text-align: center;
+    margin: 5px auto;
+    margin-left: 15px;
+    text-align: left;
+}
+
+.timeline-product {
+    width: 95%;
+    height: 100%;
+    overflow: hidden;
+    margin: 20px 0px;
+}
+
+.content-left-container,
+.content-right-container {
+    max-width: 100%;
+    max-height: 40%;
+    width: auto;
+    float: none;
+    margin: 35px 0;
+    margin-left: 125px;
+    min-height: 53px;
+}
+
+.content-left,
+.content-right {
+    position: relative;
+    width: auto;
+    border: 1px solid #eee;
+    background-color: #fff;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, .03);
+    padding: 10px 25px;
+    margin-left: 10px;
+}
+
+.content-left ::before,
+.content-right ::before {
+    position: absolute;
+    top: 13%;
+    color: white;
+    font-family: "FontAwesome";
+    font-size: 25px;
+    content: none;
+}
+
+.timeline-product p {
+    font-weight: 400;
+    color: #242424;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.timeline-product h2 {
+    font-weight: 600;
+    color: #007cba;
+    font-size: 18px;
+}
+
+.timeline-product .hero-icon {
+    position: absolute;
+    left: 87px;
+    width: 80px;
+    height: 80px;
+    margin-left: -41px;
+    margin-top: -1070px;
+    border-radius: 100%;
+    background-color: #ffffff;
+    border: #007cba solid 2px;
+}
+.hero-icon img {
+    display: block;
+    margin: 5% auto;
+    width: 90%;
+    height: 90%; 
+}
 
 /* GRID */
 .row {
