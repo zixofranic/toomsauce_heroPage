@@ -22,8 +22,6 @@
 
     /*Vertical Timeline*/
 
-
-
     .timeline-center-line {
         width: 3px;
         height: 100%;
@@ -75,6 +73,18 @@
         left: 50%;
         margin-top: -925px;
     }
+    /* Footer Menu */
+.footer-menu{
+    height: 80px;
+    display:flex;
+    background-color: #007cba;
+}
+
+.footer-menu img{
+    width:80%;
+    margin-left: auto;
+    margin-top: -50px;
+}
 }
 
 /* end of media query */
