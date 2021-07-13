@@ -22,7 +22,7 @@
     <header class="clearfix">
         <!--Need to look into the clearfix css-->
         <section class="headerSection">
-            <img src="./images/Toom_logo.png" alt="logo">
+            <a href="#"><img src="./images/Toom_logo.png" alt="logo"></a>
         </section>
     </header>
 
@@ -30,7 +30,7 @@
     <nav>
         <div class="row">
             <img src="./images/menu.svg" alt="Nav Menu" id="hambrgrBtn">
-            <ul class="clearfix">
+            <ul id="mainNav">
                 <li><a href="https://toomsauce.com/" target="_blank">home</a></li>
                 <li><a href="https://toomsauce.com/order" target="_blank">order</a></li>
                 <li><a href="https://toomsauce.com/contact" target="_blank">contact</a></li>
@@ -44,9 +44,9 @@
             <!-- contains all the timeline info divided into products sections -->
             <div class="timeline-center-line"></div>
             <div class="all-content-wrapper">
-                
+
                 <!-- Toom OG -->
-                <div class="timeline-product">
+                <div class="timeline-product" id="toomOg">
                     <div class="product-title" id="toomOg">Toom Sauce Original</div>
                     <div class="content-left-container">
                         <div class="content-left">
@@ -107,7 +107,7 @@
                     </div>
                 </div> <!-- End of Toom OG -->
                 <!-- Toom Chili Cayenne -->
-                 <div class="timeline-product">
+                <div class="timeline-product">
                     <div class="product-title" id="toomChili">Toom Chili Cayenne</div>
                     <div class="content-left-container">
                         <div class="content-left">
@@ -175,7 +175,8 @@
 
     </main>
     <footer>
-        <div >
+
+        <div>
             <section>
                 <ul class="footer-menu">
                     <li><a href="#toomOg"><img src="./images/toomIcons_0005_Layer-1.png" alt="Toom OG"></a></li>
@@ -188,6 +189,7 @@
             </section>
         </div>
     </footer>
+    <script src="/scripts/script.js"></script>
 </body>
 
 </html>
