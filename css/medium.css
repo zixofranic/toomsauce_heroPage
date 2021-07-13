@@ -10,13 +10,16 @@
     #hambrgrBtn {
         display: none;
     }
+    nav {
+        top:100px;
+    }
 
     nav ul {
         display: inline;
     }
 
     nav li {
-        width: 25%;
+        width: 33.33%;
         float: left;
     }
 
@@ -61,30 +64,43 @@
         padding: 25px 25px;
     }
 
+    .content-left ::before,
+    .content-right ::before {
+        font-family: "FontAwesome";
+        position: absolute;
+        top: 10%;
+        color: white;
+        font-size: 25px;
+    }
+
+
     .content-left ::before {
         content: "\f0da";
-        right:-8px;
-    } 
-    .content-right ::before{
-        content: "\f0d9";
-            left:-8px;
+        right: -8px;
     }
+
+    .content-right ::before {
+        content: "\f0d9";
+        left: -8px;
+    }
+
     .timeline-product .hero-icon {
         left: 50%;
         margin-top: -925px;
     }
-    /* Footer Menu */
-.footer-menu{
-    height: 80px;
-    display:flex;
-    background-color: #007cba;
-}
 
-.footer-menu img{
-    width:80%;
-    margin-left: auto;
-    margin-top: -50px;
-}
+    /* Footer Menu */
+    .footer-menu {
+        height: 80px;
+        display: flex;
+        background-color: #007cba;
+    }
+
+    .footer-menu img {
+        width: 80%;
+        margin-left: auto;
+        margin-top: -50px;
+    }
 }
 
 /* end of media query */
