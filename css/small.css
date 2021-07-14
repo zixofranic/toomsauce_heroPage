@@ -2,6 +2,7 @@ html {
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
     scroll-behavior: smooth;
+    scroll-padding-top: 150px;
 }
 
 * {
@@ -18,7 +19,6 @@ body {
     font-weight: 300;
     background: #e6e6e6;
 }
-
 
 /* header rules */
 
@@ -39,6 +39,7 @@ header img {
     width: 100%;
     z-index: 51;
 }
+
 
 /*Nav Rule*/
 nav {
