@@ -138,6 +138,9 @@ nav ul {
     margin-left: 15px;
     text-align: left;
 }
+#product-title{
+    background-color: #007cba;
+}
 
 .timeline-product {
     width: 95%;
