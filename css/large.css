@@ -11,9 +11,11 @@
     nav a {
         padding: 0.7rem 1rem;
     }
-    .img1,.img2,.img3 {
-        top:-100px;
+
+    .img4,.img6,.img8,.img10,.img12 {
+        margin-top: -150px;
       }
+
     /* Footer Menu */
     .footer-menu{
         height: 80px;

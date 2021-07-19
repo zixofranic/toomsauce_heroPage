@@ -92,6 +92,9 @@
         left: 50%;
         margin-top: -925px;
     }
+    .img4,.img6,.img8,.img10,.img12 {
+        margin-top: -50px;
+      }
 
     /* Footer Menu */
     .footer-menu {
