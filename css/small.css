@@ -178,6 +178,10 @@ nav ul {
     color: #383838;
     margin-top: -8px;
 }
+.content-right img{
+    width: 80%;
+    height: 80%;
+}
 
 .content-left,
 .content-right {

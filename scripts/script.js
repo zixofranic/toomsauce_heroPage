@@ -43,87 +43,89 @@ $(document).ready(function () {
   $(window).scroll(function () {
     var scrollTop = $(this).scrollTop()
     //cucumber=#16858a , Chili= #cf6560 Og=#007cba avocado=28a68d baba=574767
-    if (scrollTop < 500) { //toom OG img1 
+    // check sizes baased on the content ration per section and repeat for the rest
+    if (scrollTop < 1000) { //toom OG img1 
       $(".img1").css('opacity', 100 / scrollTop)
-      //console.log(scrollTop)
-    } else if (scrollTop > 500 && scrollTop < 1300) { //toom OG img2
-      $('.img2').css('opacity', 350 / (scrollTop - 500))
+      
+    } else if (scrollTop > 1100 && scrollTop < 2000) { //toom OG img2
+      $('.img2').css('opacity', 350 / (scrollTop - 1100))
       $(".img1").css('opacity', 0)
       midLineColour.style.backgroundColor = "#007cba";
       document.getElementById("product-title1").style.backgroundColor = "#007cba";
       document.getElementById("hero-icon").style.borderColor = "#007cba";
-      //console.log(scrollTop);
-    } else if (scrollTop > 1300 && scrollTop < 2100) { //toom Cucumber img1
-      $(".img3").css("opacity", 350 / (scrollTop - 1300));
+      
+    } else if (scrollTop > 2000 && scrollTop < 3545) { //toom Cucumber img1
+      $(".img3").css("opacity", 350 / (scrollTop - 2000));
       $(".img2").css("opacity", 0);
       midLineColour.style.backgroundColor = "#16858a";
       document.getElementById("product-title1").style.backgroundColor = "#16858a";
       document.getElementById("hero-icon1").style.borderColor = "#16858a";
-      //console.log(scrollTop);
-    } else if (scrollTop > 2100 && scrollTop < 2900) { //toom Cucumber img2
-      $(".img4").css("opacity", 350 / (scrollTop - 2100));
+      
+    } else if (scrollTop > 3545 && scrollTop < 4450) { //toom Cucumber img2
+      $(".img4").css("opacity", 350 / (scrollTop - 3545));
       $(".img3").css("opacity", 0);
       midLineColour.style.backgroundColor = "#16858a";
       document.getElementById("product-title1").style.backgroundColor = "#16858a";
       document.getElementById("hero-icon1").style.borderColor = "#16858a";
-      //console.log(scrollTop);
-    }else if (scrollTop > 2900 && scrollTop < 3800) { //toom chili img1
-      $(".img5").css("opacity", 350 / (scrollTop - 2900));
+
+    }else if (scrollTop > 4450 && scrollTop < 6000) { //toom chili img1
+      $(".img5").css("opacity", 350 / (scrollTop - 4450));
       $(".img4").css("opacity", 0);
       midLineColour.style.backgroundColor = "#cf6560";
       document.getElementById("product-title2").style.backgroundColor = "#cf6560";
       document.getElementById("hero-icon2").style.borderColor = "#cf6560";
       console.log(scrollTop);
-    }else if (scrollTop > 3800 && scrollTop < 4600) { //toom chili img2
-      $(".img6").css("opacity", 350 / (scrollTop - 3800));
+    }else if (scrollTop > 6000 && scrollTop < 6800) { //toom chili img2
+      $(".img6").css("opacity", 350 / (scrollTop - 6000));
       $(".img5").css("opacity", 0);
       midLineColour.style.backgroundColor = "#cf6560";
       document.getElementById("product-title2").style.backgroundColor = "#cf6560";
       document.getElementById("hero-icon2").style.borderColor = "#cf6560";
-      //console.log(scrollTop);
-    }else if (scrollTop > 4600 && scrollTop < 5400) { //toom Avocado img1
-      $(".img7").css("opacity", 350 / (scrollTop - 4600));
+      
+    }else if (scrollTop > 6800 && scrollTop < 8360) { //toom Avocado img1
+      $(".img7").css("opacity", 350 / (scrollTop - 6800));
       $(".img6").css("opacity", 0);
       midLineColour.style.backgroundColor = "#28a68d";
       document.getElementById("product-title3").style.backgroundColor = "#28a68d";
       document.getElementById("hero-icon3").style.borderColor = "#28a68d";
-      console.log(scrollTop);
-    }else if (scrollTop > 5400 && scrollTop < 6200) { //toom Avocado img2
-      $(".img8").css("opacity", 350 / (scrollTop - 5400));
+      
+    }else if (scrollTop > 8360 && scrollTop < 9270) { //toom Avocado img2
+      $(".img8").css("opacity", 350 / (scrollTop - 8360));
       $(".img7").css("opacity", 0);
       midLineColour.style.backgroundColor = "#28a68d";
       document.getElementById("product-title3").style.backgroundColor = "#28a68d";
       document.getElementById("hero-icon3").style.borderColor = "#28a68d";
-      console.log(scrollTop);
-    }else if (scrollTop > 6200 && scrollTop < 7000) { //Hummus img1
-      $(".img9").css("opacity", 350 / (scrollTop - 6200));
+      
+    }else if (scrollTop > 9270 && scrollTop < 10820) { //Hummus img1
+      $(".img9").css("opacity", 350 / (scrollTop - 9270));
       $(".img8").css("opacity", 0);
       midLineColour.style.backgroundColor = "#f2b55e";
       document.getElementById("product-title4").style.backgroundColor = "#f2b55e";
       document.getElementById("hero-icon4").style.borderColor = "#f2b55e";
-      console.log(scrollTop);
-    }else if (scrollTop > 7000 && scrollTop < 7800) { //Hummus img2
-      $(".img10").css("opacity", 350 / (scrollTop - 7000));
+      
+    }else if (scrollTop > 10820 && scrollTop < 11640) { //Hummus img2
+      $(".img10").css("opacity", 350 / (scrollTop - 10820));
       $(".img9").css("opacity", 0);
       midLineColour.style.backgroundColor = "#f2b55e";
       document.getElementById("product-title4").style.backgroundColor = "#f2b55e";
       document.getElementById("hero-icon4").style.borderColor = "#f2b55e";
-      console.log(scrollTop);
-    }else if (scrollTop > 7800 && scrollTop < 8600) { //Baba img1
-      $(".img11").css("opacity", 350 / (scrollTop - 7800));
+      
+    }else if (scrollTop > 11640 && scrollTop < 13180) { //Baba img1
+      $(".img11").css("opacity", 350 / (scrollTop - 11640));
       $(".img10").css("opacity", 0);
       midLineColour.style.backgroundColor = "#574767";
       document.getElementById("product-title5").style.backgroundColor = "#574767";
       document.getElementById("hero-icon5").style.borderColor = "#574767";
-      console.log(scrollTop);
-    }else if (scrollTop > 8600 && scrollTop < 9400) { //Baba img2
-      $(".img12").css("opacity", 350 / (scrollTop - 8600));
+      
+    }else if (scrollTop > 13180) { //Baba img2
+      //$(".img12").css("opacity", 350 / (scrollTop - 11300));
       $(".img11").css("opacity", 0);
-      midLineColour.style.backgroundColor = "#574767";
+/*       midLineColour.style.backgroundColor = "#574767";
       document.getElementById("product-title5").style.backgroundColor = "#574767";
-      document.getElementById("hero-icon5").style.borderColor = "#574767";
-      console.log(scrollTop);
+      document.getElementById("hero-icon5").style.borderColor = "#574767"; */
+      
     }
+    console.log(scrollTop);
 
   }) //End of scroll function
 })
