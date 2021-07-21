@@ -178,6 +178,10 @@ nav ul {
     color: #383838;
     margin-top: -8px;
 }
+.ingredients{
+margin-left: -20px;
+line-height: 28px;
+}
 .content-right img{
     width: 80%;
     height: 80%;
